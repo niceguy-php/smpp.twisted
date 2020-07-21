@@ -17,29 +17,40 @@ pip uninstall enum34
 
 
 注意：
+
 运行环境python2.7以上
+
 安装pyOpenSSL时会自动安装enum34和enum冲突，需要pip uninstall enum34
 
 
 1.运行smpp协议的SMSC模拟器
+
 python demo_smsc_simulator.py
 
 
 2.运行smpp客户端
+
 python demo_client.py
 
 
 3.运行单元测试
+
 cd ./smpp.twisted/smpp/twisted/tests/
 python -m unittest test_smpp_server.SMPPServerTestCase.testTRXSubmitSM
 
 
 参考项目：
+
 https://hub.docker.com/r/jookies/jasmin
+
 https://github.com/jookies/jasmin
+
 SMPP PDU parsing based on smpp.pdu: https://github.com/mozes/smpp.pdu
+
 SMPP 3.4 Client based on smpp.twisted: https://github.com/mozes/smpp.twisted
+
 GSMP 3.38 based on Python messaging: https://github.com/pmarti/python-messaging
+
 
 
 Example
