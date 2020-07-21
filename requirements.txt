@@ -1,4 +1,4 @@
-twisted
-enum
-pyOpenSSL
+twisted==19.2.0rc2
+enum==0.4.7
+pyOpenSSL==17.0.0
 smpp.pdu
