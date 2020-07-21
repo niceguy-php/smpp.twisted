@@ -2,11 +2,17 @@ SMPP 3.4 client built on Twisted
 
 
 pip install twisted==19.2.0rc2
+
 pip install enum
+
 pip install pyOpenSSL==17.0.0
+
 pip install smpp.pdu
+
 pip install smpp.twisted
+
 pip install mock    #unittest使用
+
 pip uninstall enum34
 
 
