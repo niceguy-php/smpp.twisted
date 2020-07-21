@@ -34,6 +34,14 @@ cd ./smpp.twisted/smpp/twisted/tests/
 python -m unittest test_smpp_server.SMPPServerTestCase.testTRXSubmitSM
 
 
+参考项目：
+https://hub.docker.com/r/jookies/jasmin
+https://github.com/jookies/jasmin
+SMPP PDU parsing based on smpp.pdu: https://github.com/mozes/smpp.pdu
+SMPP 3.4 Client based on smpp.twisted: https://github.com/mozes/smpp.twisted
+GSMP 3.38 based on Python messaging: https://github.com/pmarti/python-messaging
+
+
 Example
 -------
     import logging
