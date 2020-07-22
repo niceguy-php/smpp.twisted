@@ -25,7 +25,16 @@ pip uninstall enum34
 
 1.运行smpp协议的SMSC模拟器
 
-python demo_smsc_simulator.py
+方法一：python demo_smsc_simulator.py
+方法二：解压SMPPSimulator.zip,找到startup.bat，windows运行，端口：5510，可登录:http://localhost:8081,账号：forest_luo,密码:root
+
+-------
+<authenticate name="whoami" role="authorized">
+		<version>0x30</version>
+		<system_type>logica</system_type>
+		<account>333</account>
+		<password>0555</password>
+</authenticate>
 
 
 2.运行smpp客户端
